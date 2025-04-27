@@ -18,7 +18,7 @@ export const navbarDataMenu = [
     path: "/blogs",
   },
   {
-    title: "Contact Us",
-    path: "/contact",
+    title: "About",
+    path: "/about",
   },
 ];
