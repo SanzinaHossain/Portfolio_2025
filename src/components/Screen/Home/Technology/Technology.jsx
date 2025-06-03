@@ -4,12 +4,25 @@ Organization: Niret InfoTech Limited
 All right reserved by @niret_dev
 */
 
-import { BiLogoPostgresql, BiSolidFileCss } from "react-icons/bi";
+import {
+  BiLogoPostgresql,
+  BiSolidFileCss,
+  BiSolidPurchaseTag,
+} from "react-icons/bi";
 import { DiHeroku } from "react-icons/di";
 import { FaHtml5, FaNodeJs } from "react-icons/fa";
-import { GrGraphQl, GrReactjs } from "react-icons/gr";
+import { FaUsersGear } from "react-icons/fa6";
+import { GiBassetHoundHead } from "react-icons/gi";
+import { GrGraphQl, GrReactjs, GrTransaction } from "react-icons/gr";
 import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoVercel } from "react-icons/io5";
+import {
+  MdOutlineInventory,
+  MdOutlineProductionQuantityLimits,
+  MdSell,
+  MdSwitchAccount,
+} from "react-icons/md";
+import { PiBuildingOfficeDuotone } from "react-icons/pi";
 import { RiFirebaseLine, RiTailwindCssFill } from "react-icons/ri";
 import {
   SiExpo,
@@ -71,12 +84,14 @@ export default function Technology() {
             Management, Fixed Asset, General Ledger, Office Organizer
           </p>
           <div className="flex gap-x-2 items-center ">
-            <SiNetlify className="text-xl text-first" />
-            <SiRefinedgithub className="text-xl text-first" />
-            <SiExpo className="text-xl text-first" />
-            <IoLogoVercel className="text-xl text-first" />
-            <DiHeroku className="text-xl text-first" />
-            <VscCode className="text-xl text-first" />
+            <MdOutlineProductionQuantityLimits className="text-xl text-first" />
+            <GrTransaction className="text-xl text-first" />
+            <BiSolidPurchaseTag className="text-xl text-first" />
+            <FaUsersGear className="text-xl text-first" />
+            <MdOutlineInventory className="text-xl text-first" />
+            <GiBassetHoundHead className="text-xl text-first" />
+            <MdSwitchAccount className="text-xl text-first" />
+            <PiBuildingOfficeDuotone className="text-xl text-first" />
           </div>
         </div>
       </div>
