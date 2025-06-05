@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Niret InfoTech Limited
+All right reserved by @niret_dev
+*/
+
 import CompanyLogo from "../../../../assets/Logo/CompanyLogo.png";
 import CompanyLogo1 from "../../../../assets/Logo/CompanyLogo1.jpeg";
 
@@ -12,7 +18,7 @@ export default function ExperienceSection() {
         {/* First Experience */}
         <div className="flex gap-x-5 mb-5">
           <div>
-            <img src={CompanyLogo} className="h-16 w-16 " />
+            <img src={CompanyLogo} className="h-12 w-12" />
           </div>
           <div className="flex flex-col items-start w-full">
             <h1 className="text-2xl text-first font-bold">
@@ -112,7 +118,7 @@ export default function ExperienceSection() {
 
         {/* Second Experience */}
         <div className="flex gap-x-5">
-          <img src={CompanyLogo1} className="h-16 w-16 object-contain" />
+          <img src={CompanyLogo1} className="h-12 w-12" />
           <div className="flex flex-col items-start w-full">
             <h1 className="text-2xl text-first font-bold">
               Software Engineer Intern
