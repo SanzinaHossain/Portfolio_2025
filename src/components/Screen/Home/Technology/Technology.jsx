@@ -19,7 +19,6 @@ import { IoLogoVercel } from "react-icons/io5";
 import {
   MdOutlineInventory,
   MdOutlineProductionQuantityLimits,
-  MdSell,
   MdSwitchAccount,
 } from "react-icons/md";
 import { PiBuildingOfficeDuotone } from "react-icons/pi";
@@ -55,11 +54,11 @@ export default function Technology() {
             <SiMongodb className="text-xl text-first" />
             <SiExpress className="text-xl text-first" />
             <BiLogoPostgresql className="text-xl text-first" />
-            <GrGraphQl className="text-xl text-first" />{" "}
-            <SiRedux className="text-xl text-first" />{" "}
-            <RiTailwindCssFill className="text-xl text-first" />{" "}
-            <RiFirebaseLine className="text-xl text-first" />{" "}
-            <SiTypescript className="text-xl text-first" />{" "}
+            <GrGraphQl className="text-xl text-first" />
+            <SiRedux className="text-xl text-first" />
+            <RiTailwindCssFill className="text-xl text-first" />
+            <RiFirebaseLine className="text-xl text-first" />
+            <SiTypescript className="text-xl text-first" />
           </div>
         </div>
         <div className="p-5 bg-white text-black w-[30%]">
