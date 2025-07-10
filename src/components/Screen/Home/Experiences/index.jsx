@@ -10,7 +10,7 @@ import CompanyLogo1 from "../../../../assets/Logo/CompanyLogo1.jpeg";
 export default function ExperienceSection() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-white px-4">
-      <div className="p-10 max-w-5xl w-full mt-10">
+      <div className="lg:p-10 md:p-10 p-2 max-w-5xl w-full mt-10">
         <h1 className="text-3xl text-first font-bold cascadia-mono-title mb-10">
           Experiences
         </h1>

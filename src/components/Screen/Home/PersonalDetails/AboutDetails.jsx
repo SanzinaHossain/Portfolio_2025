@@ -6,7 +6,7 @@ All right reserved by @niret_dev
 
 export default function AboutDetails() {
   return (
-    <div className="flex flex-col w-[50%] justify-center ">
+    <div className="flex flex-col lg:w-[50%] md:w-[50%] w-auto justify-center ">
       <h1 className="text-2xl font-bold text-black animate-pulse text-left">
         <span className="text-4xl">👋</span>Hey, Nice to Meet You !
       </h1>

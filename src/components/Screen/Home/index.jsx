@@ -4,6 +4,7 @@ Organization: Niret InfoTech Limited
 All right reserved by @niret_dev
 */
 
+import Contact from "../About/Contact";
 import Experiences from "./Experiences";
 import "./Home.css";
 import HomePersonalDetails from "./PersonalDetails";
@@ -15,6 +16,7 @@ export default function Home() {
       <HomePersonalDetails />
       <Technology />
       <Experiences />
+      <Contact />
     </>
   );
 }

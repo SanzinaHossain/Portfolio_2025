@@ -36,9 +36,9 @@ import { VscCode } from "react-icons/vsc";
 
 export default function Technology() {
   return (
-    <div className="p-10 bg-first flex flex-col justify-center">
-      <div className="flex gap-10 mt-5 w-[100%] justify-center">
-        <div className="p-5 bg-white text-black w-[30%]">
+    <div className="lg:p-10 md:p-10 p-5 bg-first flex flex-col flex-wrap justify-center">
+      <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-x-10 gap-y-5 mt-5 w-[100%] justify-center ">
+        <div className="p-5 bg-white text-black">
           <p className="text-first font-bold text-xl">FullStack Technology</p>
           <p className="my-4 text-justify">
             JavaScript, HTML, CSS, React JS, Node JS, MongoDB, Express JS,
@@ -61,7 +61,7 @@ export default function Technology() {
             <SiTypescript className="text-xl text-first" />
           </div>
         </div>
-        <div className="p-5 bg-white text-black w-[30%]">
+        <div className="p-5 bg-white text-black ">
           <p className="text-first font-bold text-xl">Tools</p>
           <p className="my-4 text-justify">
             Netlify, Github, Expo, Vercel, Heroku, Vs Code
@@ -76,7 +76,7 @@ export default function Technology() {
           </div>
         </div>
 
-        <div className="p-5 bg-white text-black w-[30%]">
+        <div className="p-5 bg-white text-black">
           <p className="text-first font-bold text-xl">ERP Module</p>
           <p className="my-4 text-justify">
             Production, Sales, Purchase, Human Resource Management, Material

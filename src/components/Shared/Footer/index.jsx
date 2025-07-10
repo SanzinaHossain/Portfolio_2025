@@ -7,7 +7,7 @@ export default function Footer() {
 
   return (
     <div className="flex flex-col justify-center items-center p-5 font-bold">
-      <h1 className="text-first text-lg">
+      <h1 className="text-first text-lg text-center">
         © {currentYear} Sanzina Hossain. All rights reserved.
       </h1>
       <div className="flex gap-x-4 items-center justify-center mt-2 text-xl">
