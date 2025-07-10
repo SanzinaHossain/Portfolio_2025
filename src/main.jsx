@@ -11,6 +11,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Screen/Home/index.jsx";
 import Blog from "./components/Screen/Blog/index.jsx";
+import Project from "./components/Screen/Project/index.jsx";
+import About from "./components/Screen/About/index.jsx";
 
 const router = createBrowserRouter([
   {
@@ -25,9 +27,18 @@ const router = createBrowserRouter([
         path: "/blogs",
         element: <Blog />,
       },
+      {
+        path: "/projects",
+        element: <Project />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
     ],
   },
 ]);
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider

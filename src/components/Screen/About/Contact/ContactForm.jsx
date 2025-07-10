@@ -7,15 +7,15 @@ export default function ContactForm({
   register,
 }) {
   return (
-    <div className="bg-white lg:p-10 md:p-10 p-5 w-full ">
+    <div className="bg-white lg:p-10 md:p-10 p-5 w-full">
       <h1 className="text-3xl text-center text-first font-bold">
         Make An Appointment
       </h1>
 
-      <div className={`bg-slate-300 h-[1px] w-full mt-3 `}></div>
+      <div className={`bg-slate-300 h-[1px]  mt-3 `}></div>
       <form
         onSubmit={handleSubmit(handleAddContact)}
-        className=" flex flex-col justify-center items-center  gap-y-3 mt-5"
+        className=" flex flex-col justify-center items-center  gap-y-3 mt-5 "
       >
         {ContactUsData.map((data, index) => (
           <input

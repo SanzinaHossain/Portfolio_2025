@@ -82,7 +82,7 @@ export default function ExperienceSection() {
                       <h1>December 2024 - May 2025</h1>
                     </div>
                     <div className="text-justify mt-3">
-                      <ul className="list-disc pl-5">
+                      <ul className="list-disc pl-5 text-justify">
                         <li>
                           Built a full-stack company website with an admin
                           panel, making it easy to update content without

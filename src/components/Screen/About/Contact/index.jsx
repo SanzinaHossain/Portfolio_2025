@@ -6,7 +6,7 @@ import ContactHooks from "./Hooks";
 export default function Contact() {
   const { register, handleSubmit, handleAddContact } = ContactHooks();
   return (
-    <div id="contact" className="text-center lg:p-10 md:p-10 p-5 bg-second">
+    <div id="contact" className="text-center lg:p-10 md:p-10 p-5 bg-third">
       <h1 className="text-center text-black text-4xl font-bold cascadia-mono-title">
         Get In Touch
       </h1>

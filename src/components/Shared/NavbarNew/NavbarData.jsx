@@ -14,7 +14,7 @@ export const navbarDataMenu = [
     path: "/projects",
   },
   {
-    title: "Blog",
+    title: "Blogs",
     path: "/blogs",
   },
   {
