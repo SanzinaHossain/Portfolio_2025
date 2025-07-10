@@ -12,11 +12,11 @@ import Technology from "./Technology/Technology";
 
 export default function Home() {
   return (
-    <>
+    <div className="mt-14">
       <HomePersonalDetails />
       <Technology />
       <Experiences />
       <Contact />
-    </>
+    </div>
   );
 }

@@ -14,3 +14,16 @@
     --color-second: #83c5be;
     --color-third: #edf6f9;
 }
+
+.navbar_backgroundColor {
+    background-color: transparent !important;
+  }
+  
+  .navbar_Client_Link{
+    color: #006d77 !important;
+    text-decoration: underline;
+  }
+  
+  .modal::backdrop {
+    background-color: #006d77; /* example darker overlay */
+  }
