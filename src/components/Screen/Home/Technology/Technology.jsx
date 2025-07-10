@@ -36,7 +36,7 @@ import { VscCode } from "react-icons/vsc";
 
 export default function Technology() {
   return (
-    <div className="lg:p-10 md:p-10 p-5 bg-first flex flex-col flex-wrap justify-center">
+    <div className="lg:p-10 md:p-10 p-5 bg-second flex flex-col flex-wrap justify-center">
       <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-x-10 gap-y-5 mt-5 w-[100%] justify-center ">
         <div className="p-5 bg-white text-black">
           <p className="text-first font-bold text-xl">FullStack Technology</p>
