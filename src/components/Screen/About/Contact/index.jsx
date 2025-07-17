@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 import Lottie from "lottie-react";
 import animationData from "../../../../assets/Animation/Contact.json";
 import ContactForm from "./ContactForm";

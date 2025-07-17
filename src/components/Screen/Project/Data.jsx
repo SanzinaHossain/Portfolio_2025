@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 export const projectData = [
   {
     name: "Niret InfoTech Website",
@@ -16,7 +22,24 @@ export const projectData = [
     preview_link: "https://niretinfotech.netlify.app/",
     images: [
       { link: "https://i.postimg.cc/wjxkN90Y/Project-oevrview.png" },
-      { link: "https://postimg.cc/kR2QKJrt" },
+      { link: "https://i.postimg.cc/dV4LvWsv/Project-Overview-1.png" },
+      {
+        link: "https://i.postimg.cc/LsJ6S2QB/Screenshot-2025-07-12-at-10-00-55-Niret-Infotech-Limited.png",
+      },
+    ],
+    code_preview: [
+      {
+        path: "https://niretinfotech.netlify.app/",
+        name: "Live Preview",
+      },
+      {
+        path: "",
+        name: "Client Github",
+      },
+      {
+        path: "",
+        name: "Server Github",
+      },
     ],
   },
 ];

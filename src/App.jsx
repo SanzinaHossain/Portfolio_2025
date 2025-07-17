@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 import { Outlet } from "react-router-dom";
 import Footer from "./components/Shared/Footer";
 import NavbarNew from "./components/Shared/NavbarNew";

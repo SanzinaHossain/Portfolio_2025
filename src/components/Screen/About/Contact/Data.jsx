@@ -1,7 +1,7 @@
 /*
 Author: Sanzina Hossain
-Organization: Niret InfoTech Limited
-All right reserved by @niret_dev
+Organization: Sanzina's Team
+All right reserved by @Sanzina
 */
 
 export const ContactUsData = [

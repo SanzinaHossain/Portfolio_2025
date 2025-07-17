@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdMarkEmailRead } from "react-icons/md";
 import { SiRefinedgithub } from "react-icons/si";

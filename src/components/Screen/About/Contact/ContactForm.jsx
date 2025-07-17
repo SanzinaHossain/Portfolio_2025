@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 import { TiArrowForward } from "react-icons/ti";
 import { ContactUsData } from "./Data";
 
