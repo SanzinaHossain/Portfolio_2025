@@ -1,6 +1,12 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 export default function ProjectDetails({ item }) {
   return (
-    <div className="shadow-lg lg:p-10 md:p-10 p-5 flex flex-col items-center justify-center">
+    <div className="shadow-lg lg:p-10 md:p-10 p-5 flex flex-col items-center justify-center mb-10 bg-third">
       <div className="flex flex-wrap justify-center items-center lg:gap-x-10 md:gap-x-10 gap-x-0 gap-y-5">
         {item.images.map((im, index) => (
           <img className="h-64 w-64" key={index} src={im.link} />
