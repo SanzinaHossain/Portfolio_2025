@@ -10,12 +10,21 @@ export const techData = [
     description:
       "Wondering what I use for development? Here's a look at the tools,apps, and gear I rely on every day.",
     button_name: "Explore Setup",
+    path: "/setUp",
   },
   {
     name: "📚 My Blogs",
     description:
       "Here’s a quick look at the tools, apps, and gear I rely on daily to code, create, and stay productive.",
     button_name: "Explore Blogs",
+    path: "/blogs",
+  },
+  {
+    name: "📚 My Projects",
+    description:
+      "Explore a collection of practical projects showcasing the tools, technologies, and creative solutions I use to build and innovate every day.",
+    button_name: "Explore Projects",
+    path: "/projects",
   },
 ];
 
