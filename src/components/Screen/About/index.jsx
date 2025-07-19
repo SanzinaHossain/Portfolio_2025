@@ -8,7 +8,7 @@ import MyDetails from "./MyDetails";
 
 export default function About() {
   return (
-    <div className="p-10 bg-white text-black">
+    <div className="lg:p-10 md:p-10 p-5 pt-20 bg-white text-black">
       <h1 className="text-center text-first text-4xl font-bold cascadia-mono-title">
         About
       </h1>

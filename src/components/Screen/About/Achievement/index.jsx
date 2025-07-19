@@ -23,7 +23,7 @@ export default function Achievement() {
         {achievementData.map((item, index) => (
           <div
             key={index}
-            className={`shadow-lg p-5 rounded-sm flex items-center h-36 gap-x-5 ${
+            className={`shadow-lg p-5 rounded-sm flex items-center lg:h-36 md:h-36 h-64 gap-x-5 ${
               index % 2 != 0 ? "bg-white " : "bg-third"
             }`}
           >

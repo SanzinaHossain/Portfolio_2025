@@ -9,7 +9,7 @@ import SideNavigation from "./SideNavigation";
 
 export default function MyDetails() {
   return (
-    <div className="grid grid-cols-3 mt-16 mx-20 gap-x-8">
+    <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 mt-16 lg:mx-20 md:mx-10 mx-0 lg:gap-x-8 md:gap-x-8 gap-x-0">
       <PersonalInformation />
       <SideNavigation />
     </div>

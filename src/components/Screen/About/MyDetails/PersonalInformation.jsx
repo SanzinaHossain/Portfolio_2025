@@ -9,7 +9,7 @@ import { myData } from "../Data";
 
 export default function PersonalInformation() {
   return (
-    <div className="col-span-2 px-5">
+    <div className="lg:col-span-2 md:col-span-2 col-span-1 lg:px-5 md:px-5 px-0">
       <h1 className="text-first text-3xl font-bold">{myData.title}</h1>
       {myData.description.map((item, index) => (
         <p key={index} className="text-justify text-black text-lg my-3">
