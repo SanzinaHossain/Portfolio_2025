@@ -17,9 +17,27 @@ export default function Footer() {
         © {currentYear} Sanzina Hossain. All rights reserved.
       </h1>
       <div className="flex gap-x-4 items-center justify-center mt-2 text-xl">
-        <SiRefinedgithub className="text-first cursor-pointer" />
-        <FaLinkedinIn className="text-first cursor-pointer" />
-        <MdMarkEmailRead className="text-first cursor-pointer" />
+        <a
+          href="https://github.com/SanzinaHossain"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <SiRefinedgithub className="text-first cursor-pointer" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sanzinahossain/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedinIn className="text-first cursor-pointer" />
+        </a>
+        <a
+          href="mailto:sanzina67hossain@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MdMarkEmailRead className="text-first cursor-pointer" />
+        </a>
       </div>
     </div>
   );
