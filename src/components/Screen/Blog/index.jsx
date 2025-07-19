@@ -4,6 +4,12 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
+import MyResources from "./MyResources";
+
 export default function Blog() {
-  return <div></div>;
+  return (
+    <div className="pt-10 p-10">
+      <MyResources />
+    </div>
+  );
 }
