@@ -6,7 +6,7 @@ All right reserved by @Sanzina
 
 export const projectData = [
   {
-    name: "Niret InfoTech Website",
+    name: "Niret InfoTech Limited Website",
     description:
       "The website dynamically showcases ERP products, industry-specific solutions, module overviews, and service offerings through backend data integration. The About section includes a company overview, upcoming events, team member profiles, contact information, and a demo request form—all managed via backend systems. Additionally, client lists, reviews, and testimonials are integrated through APIs to emphasize customer satisfaction and trust.",
     tech_stack: [
@@ -30,6 +30,89 @@ export const projectData = [
     code_preview: [
       {
         path: "https://niretinfotech.netlify.app/",
+        name: "Live Preview",
+      },
+      {
+        path: "",
+        name: "Client Github",
+      },
+      {
+        path: "",
+        name: "Server Github",
+      },
+    ],
+  },
+  {
+    name: "Niret's Website Admin Control Panel",
+    description:
+      " This application involved building a comprehensive admin panel to manage and control all the dynamic data of the Niret Infotech website. The system enables administrators to add, update, view, delete, and manage all website content in a structured and secure way. From content updates to user interactions, every element of the site can be monitored and modified directly from this panel. Features like role-based access control, real-time content updates, and intuitive navigation ensure efficient and seamless website administration. The goal was to centralize all backend functionalities, giving the admin full control over the platform’s data and workflow.",
+    tech_stack: [
+      { name: "React JS" },
+      { name: "Node JS" },
+      { name: "Express JS" },
+      { name: "MongoDB" },
+      { name: "Tailwind CSS" },
+      {
+        name: "JWT",
+      },
+      {
+        name: "Firebase",
+      },
+    ],
+    images: [
+      {
+        link: "https://i.postimg.cc/rpVhBdw9/Screenshot-2025-07-20-at-11-04-49-Niret-IT-Admin.png",
+      },
+      {
+        link: "https://i.postimg.cc/WbZfgLy0/Screenshot-2025-07-20-at-11-00-18-Niret-IT-Admin.png",
+      },
+      {
+        link: "https://i.postimg.cc/RF8XJXQP/Screenshot-2025-07-20-at-11-05-18-Niret-IT-Admin.png",
+      },
+    ],
+    code_preview: [
+      {
+        path: "",
+        name: "Live Preview",
+      },
+      {
+        path: "",
+        name: "Client Github",
+      },
+      {
+        path: "",
+        name: "Server Github",
+      },
+    ],
+  },
+  {
+    name: "Niret's Customer Support Application",
+    description:
+      "This application is a secure and scalable Customer Support System Application developed for Niret Infotech to manage client support operations efficiently while maintaining strict SLA (Service Level Agreement) compliance. The system follows a structured, multi-layered workflow involving roles such as client user, admin, Niret supporter, and Niret admin—each with clearly defined responsibilities and role-based access controls. Support tickets are created, tracked, escalated, and resolved through this controlled flow, ensuring timely and accountable service delivery. The platform includes dynamic settings to manage access permissions, data visibility, and operational rules based on user roles. Designed with a focus on security, flexibility, and usability, this system centralizes the entire support process while protecting sensitive data and streamlining communication between clients and the support team.",
+    tech_stack: [
+      { name: "React JS" },
+      { name: "Node JS" },
+      { name: "Express JS" },
+      { name: "MongoDB" },
+      { name: "Tailwind CSS" },
+      {
+        name: "JWT",
+      },
+    ],
+    images: [
+      {
+        link: "https://i.postimg.cc/TYzdR6zS/Screenshot-2025-07-20-at-11-32-37-Customer-Support-System.png",
+      },
+      {
+        link: "https://i.postimg.cc/nrMFLcc8/Screenshot-2025-07-20-at-11-31-59-Customer-Support-System.png",
+      },
+      {
+        link: "https://i.postimg.cc/Zqc4FyWt/Screenshot-2025-07-20-at-11-32-56-Customer-Support-System.png",
+      },
+    ],
+    code_preview: [
+      {
+        path: "",
         name: "Live Preview",
       },
       {
