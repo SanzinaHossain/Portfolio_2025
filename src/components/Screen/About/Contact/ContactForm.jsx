@@ -35,7 +35,7 @@ export default function ContactForm({
           />
         ))}
 
-        <button className="bg-first text-lg  text-white  flex gap-x-1 jusfify-center items-center mt-5 p-2 rounded-sm ">
+        <button className="bg-first text-lg  text-white  flex gap-x-1 jusfify-center items-center mt-5 p-2 rounded-sm  cursor-pointer">
           Submit Request
           <TiArrowForward className="text-lg" />
         </button>

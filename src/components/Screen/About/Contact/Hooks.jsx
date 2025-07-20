@@ -16,6 +16,7 @@ export default function ContactHooks() {
 
   const handleAddContact = (data) => {
     console.log(data);
+    alert("Request accepted successfully !!!")
     reset();
   };
 

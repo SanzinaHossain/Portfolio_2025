@@ -9,6 +9,9 @@ import ReactJs from "../../../assets/Interview Question/React Interview Question
 import advancedReactJs from "../../../assets/Interview Question/React Advanced.pdf";
 import ReduxBook from "../../../assets/Resources/Redux Book.pdf";
 import CareerGuide from "../../../assets/Resources/Book.pdf";
+import NodeJsLearning from "../../../assets/Resources/Node Js.pdf";
+import TypescriptLearning from "../../../assets/Resources/TypeScript.pdf";
+import ReactStateManagement from "../../../assets/Resources/React State Management.pdf";
 
 export const InterviewData = [
   {
@@ -57,5 +60,38 @@ export const ResourceData = [
   {
     name: "Career GuideLines",
     file: CareerGuide,
+  },
+  {
+    name: "Node JS Learning",
+    file: NodeJsLearning,
+  },
+  {
+    name: "TypeScript Zero to Hero",
+    file: TypescriptLearning,
+  },
+  {
+    name: "React useContext Vs Redux",
+    file: ReactStateManagement,
+  },
+];
+
+export const BlogData = [
+  {
+    image:
+      "https://a.storyblok.com/f/42126/c16b886816/js-xhr-fetch-axios.png/m/1600x900/filters:quality(70)/",
+    name: "API's : Comparing Fetch, Axios, and TanStack Query",
+    description:
+      "Fetch is the native way to make HTTP requests but needs manual handling. Axios simplifies requests with extra features like automatic JSON parsing and error handling. TanStack Query helps React apps fetch, cache, and manage server data efficiently with built-in state management.",
+    date: "20th July, 2025",
+    data: [],
+  },
+  {
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViG43ScyiU9hLv8U0QVNFawIv677Ubz78Iw&s",
+    name: "Understanding React Hooks: useMemo and useReducer",
+    description:
+      "This article explains two powerful React hooks — useMemo and useReducer. Learn how useMemo optimizes performance by memoizing expensive calculations, and how useReducer helps manage complex state logic with a clear and predictable reducer pattern. Perfect for improving your React app’s efficiency and maintainability.",
+    date: "1st May, 2025",
+    data: [],
   },
 ];
