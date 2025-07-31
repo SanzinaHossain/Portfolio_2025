@@ -5,16 +5,17 @@ All right reserved by @Sanzina
 */
 
 import { useNavigate } from "react-router-dom";
-import image from "../../assets/error.webp";
+import Lottie from "lottie-react";
+import Error from "../../assets/Animation/Error.json";
 
 export default function PageNotFound() {
   const navigate = useNavigate();
   return (
     <div className="flex flex-col justify-center items-center">
-      <img src={image} />
+      <Lottie animationData={Error} loop={true} className="mt-10 h-92 " />
       <button
         onClick={() => navigate("/")}
-        className="my-5 px-10 py-3 bg-first text-white text-xl cursor-pointer"
+        className=" px-10 py-3 bg-first text-white text-xl cursor-pointer"
       >
         Go Back Home
       </button>

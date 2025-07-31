@@ -16,7 +16,7 @@ export default function BlogSection() {
       >
         {`Whether it's debugging challenges, exploring new tools, or sharing lessons learned, this space is where \nI document and reflect on the process of building thoughtful, impactful software.`}
       </p>
-      <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 justify-center items-center mt-10 gap-10 lg:mx-20 md:mx-16 mx-0">
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 justify-center items-center mt-10 gap-x-10 gap-y-5 lg:mx-20 md:mx-16 mx-0">
         {BlogData.map((blog, index) => (
           <div key={index} className="bg-third shadow-lg rounded-lg">
             <img className="rounded-t-lg h-64 w-full" src={blog.image} />
@@ -37,7 +37,7 @@ export default function BlogSection() {
             </div>
           </div>
         ))}
-        <div className="  flex justify-center items-center ">
+        <div className="flex justify-center items-center  h-auto">
           <Lottie animationData={Loading} loop={true} />
         </div>
       </div>
