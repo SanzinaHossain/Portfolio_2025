@@ -15,6 +15,7 @@ import Project from "./components/Screen/Project/index.jsx";
 import About from "./components/Screen/About/index.jsx";
 import PageNotFound from "./components/Screen/PageNotFound.jsx";
 import TechSetUp from "./components/Screen/TechSetUp/index.jsx";
+import BlogDetailsQuery from "./components/Screen/Blog/BlogDetails/BlogDetailsQuery.jsx";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
       {
         path: "/setUp",
         element: <TechSetUp />,
+      },
+      {
+        path: "/blogDetails",
+        element: <BlogDetailsQuery />,
       },
     ],
   },

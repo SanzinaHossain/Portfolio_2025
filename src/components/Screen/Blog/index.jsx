@@ -9,7 +9,7 @@ import MyResources from "./MyResources";
 
 export default function Blog() {
   return (
-    <div className="pt-10 p-10">
+    <div className="lg:pt-10 md:pt-10 pt-5 lg:p-10 md:p-10 p-2">
       <BlogSection />
       <MyResources />
     </div>
