@@ -4,7 +4,10 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
+import { useNavigate } from "react-router-dom";
+
 export default function AboutDetails() {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-col lg:w-[50%] md:w-[50%] w-auto justify-center ">
       <h1 className="text-2xl font-bold text-black animate-pulse text-left">
@@ -27,10 +30,16 @@ export default function AboutDetails() {
         share what I discover along the way. Welcome, and enjoy the journey with
         me!❤️
       </p>
-      <button className="mt-3 text-black text-md text-left cursor-pointer">
+      <button
+        onClick={() => navigate("/about")}
+        className="mt-3 text-black text-md text-left cursor-pointer"
+      >
         🤷‍♀️ About me
       </button>
-      <button className="mt-1 text-black text-md text-left cursor-pointer">
+      <button
+        onClick={() => navigate("/blogs")}
+        className="mt-1 text-black text-md text-left cursor-pointer"
+      >
         📖 Explore my blogs
       </button>
     </div>
