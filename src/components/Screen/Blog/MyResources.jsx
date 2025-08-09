@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 import { useState } from "react";
 import { InterviewData, ResourceData } from "./Data";
 

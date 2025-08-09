@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 import javascript1 from "../../../assets/Interview Question/Javascript 1.pdf";
 import javascript2 from "../../../assets/Interview Question/Javascript 2.pdf";
 import javascript3 from "../../../assets/Interview Question/Javascript 3.pdf";
@@ -187,14 +193,91 @@ export const BlogData = [
         "Choosing the right tool depends on your project’s complexity and needs. Fetch is great for quick and simple requests without extra dependencies. Axios improves on Fetch with useful features like interceptors and automatic JSON parsing. For modern React applications where server state and caching matter, TanStack Query provides a robust, declarative approach that dramatically simplifies data-fetching logic.",
     },
   },
-
-  // {
-  //   image:
-  //     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViG43ScyiU9hLv8U0QVNFawIv677Ubz78Iw&s",
-  //   name: "React Hooks: useMemo & useReducer Explained",
-  //   description:
-  //     "Discover how useMemo improves speed by saving calculations, and useReducer makes managing more complex state easier in React.",
-  //   date: "1st May, 2025",
-  //   data: [],
-  // },
+  {
+    image:
+      "https://acropolium.com/img/articles/migrating-monolith-to-microservices/img01.jpg",
+    name: "Monolith vs Microservices",
+    description:
+      "Choosing between a monolithic and microservices architecture is a key decision in software development. It affects how you build, deploy, scale, and maintain your application over time.",
+    date: "8th August, 2025",
+    data: {
+      title:
+        "Monolith vs Microservices – A Developer’s Guide with Diagrams & Code Architecture",
+      description:
+        "When building modern web applications, the architecture you choose—monolithic or microservices—can make or break your system as it grows. This blog post explores both, comparing their structure, pros and cons, and real-world implementation through code architecture and visual diagrams.",
+      part: [
+        {
+          title: "What is Monolithic Architecture?",
+          description:
+            "A monolith is a single-tiered application where all features—UI, backend, business logic, and database—are combined into one codebase and deployed together.",
+          pros: {
+            title: "Advantages of Monolith",
+            pros_value: [
+              { text: "Simple to develop and deploy in early stages." },
+              {
+                text: "Easier to debug and test as everything is in one place.",
+              },
+              { text: "No inter-service communication overhead." },
+            ],
+            cons_value: [
+              "Hard to scale parts independently.",
+              "Tightly coupled modules make maintenance complex.",
+              "Long build and deploy times as app grows.",
+            ],
+            code_image:
+              "https://miro.medium.com/v2/resize:fit:720/format:webp/0*HjgXQ8c1t83s55Wh.png",
+          },
+        },
+        {
+          title: "What is Microservices Architecture?",
+          description:
+            "Microservices break down the application into small, independent services, each managing a specific business capability. These services communicate via APIs, and can use different technologies.",
+          pros: {
+            title: "Advantages of Microservices",
+            pros_value: [
+              { text: "Scalable: You can scale services independently." },
+              {
+                text: "Flexible: Different teams can use different tech stacks.",
+              },
+              {
+                text: "Failure Isolation: One service failing doesn’t crash the whole system.",
+              },
+            ],
+            cons_value: [
+              "Increased complexity: Requires DevOps practices and service coordination.",
+              "More difficult to test and monitor across services.",
+              "Network overhead due to inter-service communication.",
+            ],
+            code_image:
+              "https://miro.medium.com/v2/resize:fit:720/format:webp/0*rd4xwa0jONmj_KhE.png",
+          },
+        },
+        {
+          title: "Code Architecture Comparison",
+          description:
+            "Here’s a quick look at how your project’s folder structure differs between the two architectures.",
+          pros: {
+            title: "Side-by-Side Structure",
+            pros_value: [
+              {
+                text: "Monolith: Single repository with all features together.",
+              },
+              {
+                text: "Microservices: Separate services with independent deployments.",
+              },
+            ],
+            cons_value: [
+              "Microservices require orchestration tools and API gateways.",
+              "Monolith becomes tightly coupled as it grows.",
+            ],
+            code_image:
+              "https://miro.medium.com/v2/resize:fit:720/format:webp/1*bDI_1EtHO8iJR5pSwiWelw.png",
+          },
+        },
+      ],
+      end_title: "Conclusion",
+      end_description:
+        "Both architectures serve different purposes. If you're building a small app or MVP, start with a monolith. As your team and features grow, microservices offer better scalability and flexibility—but require the right tools and discipline to manage complexity.",
+    },
+  },
 ];

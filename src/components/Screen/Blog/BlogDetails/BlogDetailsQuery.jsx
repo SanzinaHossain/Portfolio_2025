@@ -1,3 +1,9 @@
+/*
+Author: Sanzina Hossain
+Organization: Sanzina's Team
+All right reserved by @Sanzina
+*/
+
 import { useLocation } from "react-router-dom";
 
 export default function BlogDetailsQuery() {

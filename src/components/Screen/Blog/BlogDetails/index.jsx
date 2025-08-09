@@ -37,9 +37,11 @@ export default function BlogSection() {
             </div>
           </div>
         ))}
-        <div className="flex justify-center items-center  h-auto">
-          <Lottie animationData={Loading} loop={true} />
-        </div>
+        {BlogData.length < 2 && (
+          <div className="flex justify-center items-center  h-auto">
+            <Lottie animationData={Loading} loop={true} />
+          </div>
+        )}
       </div>
     </div>
   );
