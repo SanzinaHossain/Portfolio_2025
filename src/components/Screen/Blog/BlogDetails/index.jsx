@@ -1,10 +1,10 @@
-import { useNavigate } from "react-router-dom";
-import { BlogData } from "../Data";
-import Loading from "../../../../assets/Animation/Loading.json";
-import Lottie from "lottie-react";
+import { useNavigate } from "react-router-dom"
+import { BlogData } from "../Data"
+import Loading from "../../../../assets/Animation/Loading.json"
+import Lottie from "lottie-react"
 
 export default function BlogSection() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   return (
     <div className="lg:p-10 md:pt-20 pt-15 md:p-10 p-5">
       <h1 className="text-center text-first text-4xl font-bold cascadia-mono-title">
@@ -18,7 +18,7 @@ export default function BlogSection() {
       </p>
       <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 justify-center items-center mt-10 gap-x-10 gap-y-5 lg:mx-20 md:mx-16 mx-0">
         {BlogData.map((blog, index) => (
-          <div key={index} className="bg-third shadow-lg rounded-lg">
+          <div key={index} className="bg-third shadow-lg rounded-lg bg-white">
             <img className="rounded-t-lg h-64 w-full" src={blog.image} />
             <div className="p-5">
               <h1 className="text-center text-xl text-first font-bold">
@@ -44,5 +44,5 @@ export default function BlogSection() {
         )}
       </div>
     </div>
-  );
+  )
 }

@@ -4,15 +4,15 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import { useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom"
 
 export default function BlogDetailsQuery() {
-  const location = useLocation();
-  const data = location.state;
+  const location = useLocation()
+  const data = location.state
 
   return (
-    <div className="pt-16">
-      <div className="w-full max-w-4xl mx-auto px-4 text-lg">
+    <div className="pt-16 bg-white">
+      <div className="w-full max-w-4xl mx-auto px-4 text-lg text-black">
         {/* Title */}
         <h1 className="text-3xl lg:text-left md:text-left text-center text-first font-bold mb-6">
           {data.data.title}
@@ -76,5 +76,5 @@ export default function BlogDetailsQuery() {
         )}
       </div>
     </div>
-  );
+  )
 }

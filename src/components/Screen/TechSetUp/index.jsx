@@ -4,11 +4,11 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import { TechSetUpData } from "./Data";
+import { TechSetUpData } from "./Data"
 
 export default function TechSetUp() {
   return (
-    <div className="lg:p-10 lg:pt-16 md:pt-20 pt-15 md:p-10 p-5">
+    <div className="lg:p-10 lg:pt-16 md:pt-20 pt-15 md:p-10 p-5 bg-white">
       <h1 className="text-center text-first text-4xl font-bold cascadia-mono-title">
         Tech SetUp
       </h1>
@@ -18,7 +18,7 @@ export default function TechSetUp() {
       >
         {`Technology is at the heart of everything I create, shaping how ideas turn into real-world solutions.This section offers a glimpse \ninto the tools and environments that power my work and help me stay adaptable in an ever-changing tech landscape.`}
       </p>
-      <div className="lg:mx-20 md:mx-16 mx-0 mt-16">
+      <div className="lg:mx-20 md:mx-16 mx-0 mt-16 text-black">
         {TechSetUpData.map((item, index) => (
           <div key={index} className="mb-20">
             <div className="flex items-center gap-x-3 text-4xl text-first">
@@ -43,5 +43,5 @@ export default function TechSetUp() {
         ))}
       </div>
     </div>
-  );
+  )
 }

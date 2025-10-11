@@ -4,12 +4,12 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import { projectData } from "./Data";
-import ProjectDetails from "./ProjectDetails";
+import { projectData } from "./Data"
+import ProjectDetails from "./ProjectDetails"
 
 export default function Project() {
   return (
-    <div className="lg:p-10 lg:pt-20 md:pt-20 pt-15 md:p-10 p-5">
+    <div className="bg-white lg:p-10 lg:pt-20 md:pt-20 pt-15 md:p-10 p-5">
       <h1 className="text-center text-first text-4xl font-bold cascadia-mono-title">
         Projects
       </h1>
@@ -26,5 +26,5 @@ export default function Project() {
         ))}
       </div>
     </div>
-  );
+  )
 }
