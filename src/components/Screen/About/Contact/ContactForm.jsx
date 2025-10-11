@@ -4,8 +4,8 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import { TiArrowForward } from "react-icons/ti";
-import { ContactUsData } from "./Data";
+import { TiArrowForward } from "react-icons/ti"
+import { ContactUsData } from "./Data"
 
 export default function ContactForm({
   handleSubmit,
@@ -30,7 +30,7 @@ export default function ContactForm({
             autoCorrect="off"
             spellCheck="false"
             placeholder={data.placeHolder}
-            className="focus:ring-0 hover:ring-0 bg-gray-100 border-gray-100 w-full rounded-sm p-4 outline-none text-lg text-gray-700"
+            className="focus:ring-0 hover:ring-0 bg-gray-100 border-gray-100 w-full rounded-sm p-4 outline-none text-lg text-gray-800"
             {...register(data.register)}
           />
         ))}
@@ -41,5 +41,5 @@ export default function ContactForm({
         </button>
       </form>
     </div>
-  );
+  )
 }

@@ -4,8 +4,8 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import CompanyLogo from "../../../../assets/Logo/CompanyLogo.png";
-import CompanyLogo1 from "../../../../assets/Logo/CompanyLogo1.jpeg";
+import CompanyLogo from "../../../../assets/Logo/CompanyLogo.png"
+import CompanyLogo1 from "../../../../assets/Logo/CompanyLogo1.jpeg"
 
 export default function ExperienceSection() {
   return (
@@ -24,7 +24,7 @@ export default function ExperienceSection() {
             <h1 className="text-2xl text-first font-bold">
               Niret InfoTech Limited
             </h1>
-            <p>🏠 Chattogram, Bangladesh</p>
+            <p className="text-black">🏠 Chattogram, Bangladesh</p>
             <div className="mt-3 w-full">
               <ul className="timeline timeline-compact timeline-snap-icon timeline-vertical">
                 <li>
@@ -42,8 +42,8 @@ export default function ExperienceSection() {
                       />
                     </svg>
                   </div>
-                  <div className="timeline-end md:mb-5">
-                    <div className="flex justify-between flex-wrap">
+                  <div className="timeline-end md:mb-5 text-black">
+                    <div className="flex justify-between flex-wrap ">
                       <h1 className="text-xl text-black">Software Engineer</h1>
                       <h1>June 2025 - Present</h1>
                     </div>
@@ -74,7 +74,7 @@ export default function ExperienceSection() {
                       />
                     </svg>
                   </div>
-                  <div className="timeline-end md:mb-3">
+                  <div className="timeline-end md:mb-3 text-black">
                     <div className="flex justify-between flex-wrap">
                       <h1 className="text-xl text-black">
                         Software Engineer Intern
@@ -117,7 +117,7 @@ export default function ExperienceSection() {
         </div>
 
         {/* Second Experience */}
-        <div className="flex gap-x-5">
+        <div className="flex gap-x-5 text-black">
           <img src={CompanyLogo1} className="h-12 w-12" />
           <div className="flex flex-col items-start w-full">
             <h1 className="text-2xl text-first font-bold">
@@ -155,5 +155,5 @@ export default function ExperienceSection() {
         </div>
       </div>
     </div>
-  );
+  )
 }

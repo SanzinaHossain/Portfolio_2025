@@ -4,15 +4,15 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import { FaLinkedinIn } from "react-icons/fa";
-import { MdMarkEmailRead } from "react-icons/md";
-import { SiRefinedgithub } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa"
+import { MdMarkEmailRead } from "react-icons/md"
+import { SiRefinedgithub } from "react-icons/si"
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear()
 
   return (
-    <div className="flex flex-col justify-center items-center p-5 font-bold">
+    <div className="bg-white flex flex-col justify-center items-center p-5 font-bold">
       <h1 className="text-first text-lg text-center">
         © {currentYear} Sanzina Hossain. All rights reserved.
       </h1>
@@ -40,5 +40,5 @@ export default function Footer() {
         </a>
       </div>
     </div>
-  );
+  )
 }
