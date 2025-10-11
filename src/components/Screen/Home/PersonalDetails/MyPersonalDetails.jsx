@@ -7,10 +7,10 @@ All right reserved by @Sanzina
 export default function MyPersonalDetails({ image }) {
   const handleDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1lw2AoTksD1nPx-r1ncLA6NynlJPD8J5X/view?usp=sharing",
+      "https://drive.google.com/file/d/1jPRcidM-vYsQgfodqCFafdSp8dlyPd_X/view?usp=sharing",
       "_blank"
-    );
-  };
+    )
+  }
   return (
     <div className="text-center flex flex-col justify-center items-center ">
       <div className="bg-first w-46 h-46  rounded-full mb-2">
@@ -36,5 +36,5 @@ export default function MyPersonalDetails({ image }) {
         Contact Me
       </a>
     </div>
-  );
+  )
 }

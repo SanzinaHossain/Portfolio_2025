@@ -4,10 +4,10 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 
 export default function AboutDetails() {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   return (
     <div className="flex flex-col lg:w-[50%] md:w-[50%] w-auto justify-center ">
       <h1 className="text-2xl font-bold text-black animate-pulse text-left">
@@ -16,7 +16,7 @@ export default function AboutDetails() {
       <h1 className="text-4xl font-bold text-first my-3 cascadia-mono-title">
         I'm Sanzina Hossain
       </h1>
-      <p className="text-justify">
+      <p className="text-justify text-black">
         I’m a Software Engineer passionate about building thoughtful user
         experiences and robust web applications. With 2 years of hands-on
         experience, I specialize in creating clean, scalable solutions using
@@ -24,7 +24,7 @@ export default function AboutDetails() {
         shaped by problem solving and system design, which now fuels my approach
         to engineering modern software.🚀
       </p>
-      <p className="text-justify mt-3">
+      <p className="text-justify mt-3 text-black">
         Curious about how things work and always excited to learn something
         new—especially in tech and AI. This space is where I pause, think, and
         share what I discover along the way. Welcome, and enjoy the journey with
@@ -43,5 +43,5 @@ export default function AboutDetails() {
         📖 Explore my blogs
       </button>
     </div>
-  );
+  )
 }
