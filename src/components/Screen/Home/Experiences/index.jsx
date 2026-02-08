@@ -6,6 +6,8 @@ All right reserved by @Sanzina
 
 import CompanyLogo from "../../../../assets/Logo/CompanyLogo.png"
 import CompanyLogo1 from "../../../../assets/Logo/CompanyLogo1.jpeg"
+import CompanyLogo2 from "../../../../assets/Logo/CompanyLogo 2.jpg"
+
 
 export default function ExperienceSection() {
   return (
@@ -15,6 +17,48 @@ export default function ExperienceSection() {
           Experiences
         </h1>
 
+   {/* Third Experience */}
+         <div className="flex gap-x-5 text-black mb-5">
+          <img src={CompanyLogo2} className="h-12 w-12" />
+          <div className="flex flex-col items-start w-full">
+            <h1 className="text-2xl text-first font-bold">
+              Software Developer
+            </h1>
+            <div className="flex justify-between w-full flex-wrap">
+              <div className="flex gap-x-2">
+                <p>🏬 Feinpro Gmbh</p>
+                <p>🏠 Hamburg, Germany</p>
+              </div>
+              <h1>November 2025 - Present</h1>
+            </div>
+            <div className="text-justify mt-3">
+              <ul className="list-disc pl-5">
+                <li>
+                 Assisted in developing and maintaining Shopify-based
+                 eCommerce websites, including basic theme customization
+                 and content updates
+                </li>
+                <li className="my-2">
+                  Supported the maintenance and enhancement of the company
+website, focusing on usability and performance improvements.
+                </li>
+                <li>
+                  Prepared and updated technical and business documentation.
+                </li>
+                <li className="my-2">
+                  Contributed to Feinpro ERP system enhancements under
+guidance from senior developers.
+                </li>
+                 <li className="my-2">
+                  Helped identify and fix bugs to improve system stability.
+                </li> <li className="my-2">
+                  Collaborated with team members to understand requirements
+and implement solutions.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
         {/* First Experience */}
         <div className="flex gap-x-5 mb-5">
           <div>
@@ -45,7 +89,7 @@ export default function ExperienceSection() {
                   <div className="timeline-end md:mb-5 text-black">
                     <div className="flex justify-between flex-wrap ">
                       <h1 className="text-xl text-black">Software Engineer</h1>
-                      <h1>June 2025 - Present</h1>
+                      <h1>June 2025 - August 2025</h1>
                     </div>
                     <div className="text-justify mt-3">
                       Contributed to the development of multiple projects using
@@ -153,6 +197,7 @@ export default function ExperienceSection() {
             </div>
           </div>
         </div>
+             
       </div>
     </div>
   )
