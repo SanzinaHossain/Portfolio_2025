@@ -8,12 +8,12 @@ export default function MyPersonalDetails({ image }) {
   const handleDownload = () => {
     window.open(
       "https://drive.google.com/file/d/1jPRcidM-vYsQgfodqCFafdSp8dlyPd_X/view?usp=sharing",
-      "_blank"
-    )
-  }
+      "_blank",
+    );
+  };
   return (
     <div className="text-center flex flex-col justify-center items-center ">
-      <div className="bg-first w-46 h-46  rounded-full mb-2">
+      <div className=" w-46 h-46  rounded-full mb-2 ">
         <img src={image} className="rounded-full w-46 h-46 " />
       </div>
       <h1 className="text-2xl text-first font-bold cascadia-mono-title">
@@ -36,5 +36,5 @@ export default function MyPersonalDetails({ image }) {
         Contact Me
       </a>
     </div>
-  )
+  );
 }

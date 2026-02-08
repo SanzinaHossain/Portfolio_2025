@@ -4,7 +4,7 @@ Organization: Sanzina's Team
 All right reserved by @Sanzina
 */
 
-import image from "../../../../assets/Logo/Sanzina.png";
+import image from "../../../../assets/Logo/Sanzina1.png";
 import AboutDetails from "./AboutDetails";
 import MyPersonalDetails from "./MyPersonalDetails";
 

@@ -6,6 +6,7 @@ All right reserved by @Sanzina
 
 import Achievement from "../Achievement";
 import { myData } from "../Data";
+import Publication from "../Publication";
 
 export default function PersonalInformation() {
   return (
@@ -16,6 +17,7 @@ export default function PersonalInformation() {
           {item.text}
         </p>
       ))}
+      <Publication/>
       <Achievement />
     </div>
   );
